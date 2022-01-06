@@ -5,6 +5,15 @@
   font-family: Karla, sans-serif;
 }
 
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .page {
   height: 100vh;
   background-color: #e5eff5;
