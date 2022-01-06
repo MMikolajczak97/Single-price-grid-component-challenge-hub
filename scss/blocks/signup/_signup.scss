@@ -1,0 +1,16 @@
+@use '../../variables'as v;
+
+.signup {
+    grid-area: signup;
+    background-color: v.$cyan;
+
+    &__heading-small {
+        color: white;
+        padding: 0 0 1em 0;
+    }
+
+    &__paragraph {
+        color: white;
+        padding: 0 0 2em 0;
+    }
+}

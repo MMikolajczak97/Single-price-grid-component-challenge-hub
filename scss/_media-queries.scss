@@ -1,0 +1,34 @@
+// @use './variables'as v;
+@use './blocks/container/container-responsive-mixins'as container-rm;
+@use './blocks/page/page-responsive-mixins'as page-rm;
+@use './blocks/button/button-responsive-mixins'as button-rm;
+
+
+@media (min-width: 548px) {
+
+    @include container-rm.container-desktop();
+    @include page-rm.page-desktop();
+    @include button-rm.button-desktop();
+
+    // .page {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+
+    // .container {
+    //     /* grid-template-columns: 1fr 1fr; */
+    //     /* width: 35vw; */
+    //     width: 650px;
+    //     grid-template-columns: repeat(2, minmax(0, 1fr));
+    //     grid-template-rows: repeat(2, min-content);
+    //     grid-template-areas: "header header"
+    //         "main footer";
+    // }
+
+    // .button:hover {
+    //     background-color: white;
+    //     color: v.$brightYellow;
+    //     transform: scale(110%);
+    // }
+}

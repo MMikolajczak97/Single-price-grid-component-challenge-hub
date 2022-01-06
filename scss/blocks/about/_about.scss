@@ -1,0 +1,26 @@
+@use '../../variables'as v;
+
+.about {
+    grid-area: about;
+    background-color: v.$lightCyan;
+    padding: v.$sectionPadding;
+
+    &__heading-small {
+        color: white;
+        padding: 0 0 1em 0;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__list-item {
+        padding: 0 0 0.1em 0;
+    }
+
+    &__list-link {
+        color: white;
+        font-size: 0.9em;
+        text-decoration: none;
+    }
+}

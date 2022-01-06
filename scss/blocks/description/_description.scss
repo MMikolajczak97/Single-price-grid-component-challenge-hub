@@ -1,0 +1,23 @@
+@use '../../variables'as v;
+
+
+.description {
+    grid-area: description;
+    padding: v.$sectionPadding;
+
+    &__heading-small {
+        color: v.$brightYellow;
+        padding: 0 0 0.6em 0;
+
+    }
+
+    &__heading-large {
+        color: v.$lightCyan;
+        padding: 0 0 1em 0;
+    }
+
+    &__paragraph {
+        line-height: 1.6;
+        color: v.$grayishBlue;
+    }
+}

@@ -1,0 +1,6 @@
+@use '../../variables'as v;
+
+.page {
+    height: 100vh;
+    background-color: v.$lightGray;
+}

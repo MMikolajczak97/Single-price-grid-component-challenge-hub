@@ -1,0 +1,9 @@
+@use '../../variables'as v;
+
+@mixin button-desktop {
+    .button:hover {
+        background-color: white;
+        color: v.$brightYellow;
+        transform: scale(110%);
+    }
+}
